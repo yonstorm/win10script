@@ -30,7 +30,7 @@ $tweaks = @(
 	
 	### Chris Titus Tech Additions
 	"TitusRegistryTweaks",
-	"InstallBrave",
+	"InstallWinget",
 	#"ChangeDefaultApps",
 
 	### Windows Apps
@@ -198,7 +198,7 @@ Function TitusRegistryTweaks {
 	Set-ItemProperty -Path $UpdatesPath -Name "ActiveHoursStart" -Type DWord -Value 8
 }
 
-Function DisableTelemetry {
+Function InstallWinget {
 	Write-Output "Installing Winget-cli..."
 	$repo = "microsoft/winget-cli"
 	$filenamePattern = "*.appxbundle"
@@ -213,29 +213,6 @@ Function DisableTelemetry {
 
 	Remove-Item $pathZip -Force
 
-}
-
-Function InstallBrave {
-	do
- {
-    Clear-Host
-    Write-Host "================ Do You Want to Install Brave Browser? ================"
-    Write-Host "Y: Press 'Y' to do this."
-    Write-Host "2: Press 'N' to skip this."
-	Write-Host "Q: Press 'Q' to stop the entire script."
-    $selection = Read-Host "Please make a selection"
-    switch ($selection)
-    {
-    'y' { 
-		Invoke-WebRequest -Uri "https://laptop-updates.brave.com/download/CHR253" -OutFile $env:USERPROFILE\Downloads\brave.exe
-		~/Downloads/brave.exe
-	}
-    'n' { Break }
-    'q' { Exit  }
-    }
- }
- until ($selection -match "y" -or $selection -match "n" -or $selection -match "q")
-	
 }
 
 Function ChangeDefaultApps {
