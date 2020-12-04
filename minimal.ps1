@@ -23,7 +23,6 @@
 #
 ##########
 # Default preset
-$apps = @('Microsoft.PowerToys','elgato.streamdeck','Spotify.Spotify','Git.Git','JetBrains.Toolbox','Alacritty.Alacritty','Discord.Discord','7zip.7zip','VideoLAN.VLC','Valve.Steam','UnityTechnologies.UnityHub','BraveSoftware.BraveBrowser','LogMeIn.LastPass','vim.vim')
 $tweaks = @(
 	### Require administrator privileges ###
 	"RequireAdmin",
@@ -32,7 +31,6 @@ $tweaks = @(
 	### Chris Titus Tech Additions
 	"TitusRegistryTweaks",
 	"InstallWinget",
-	"InstallApps",
 	#"ChangeDefaultApps",
 
 	### Windows Apps
@@ -215,13 +213,6 @@ Function InstallWinget {
 
 	Remove-Item $pathZip -Force
 
-}
-
-Function InstallApps {
-	Foreach ($app in $apps)
-	{
-	    winget install --silent $app
-	}
 }
 
 Function ChangeDefaultApps {
