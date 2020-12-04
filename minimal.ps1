@@ -198,8 +198,21 @@ Function TitusRegistryTweaks {
 	Set-ItemProperty -Path $UpdatesPath -Name "ActiveHoursStart" -Type DWord -Value 8
 }
 
-Function InstallAdobe {
-	Show-Choco-Menu -Title "Do you want to install Adobe Acrobat Reader?" -ChocoInstall "adobereader"
+Function DisableTelemetry {
+	Write-Output "Installing Winget-cli..."
+	$repo = "microsoft/winget-cli"
+	$filenamePattern = "*.appxbundle"
+
+    	$releasesUri = "https://api.github.com/repos/$repo/releases/latest"
+    	$downloadUri = ((Invoke-RestMethod -Method GET -Uri $releasesUri).assets | Where-Object name -like $filenamePattern ).browser_download_url
+
+	$pathZip = Join-Path -Path $([System.IO.Path]::GetTempPath()) -ChildPath $(Split-Path -Path $downloadUri -Leaf)
+
+	Invoke-WebRequest -Uri $downloadUri -Out $pathZip
+	Add-AppxPackage -Path $pathZip
+
+	Remove-Item $pathZip -Force
+
 }
 
 Function InstallBrave {
