@@ -161,7 +161,7 @@ $tweaks = @(
 	# "InstallHyperV",              # "UninstallHyperV",
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
-	"InstallPDFPrinter"		# "UninstallPDFPrinter",
+	"InstallPDFPrinter",		# "UninstallPDFPrinter",
 	# "UninstallXPSPrinter",          # "InstallXPSPrinter",
 	"RemoveFaxPrinter",             # "AddFaxPrinter",
 
@@ -174,8 +174,8 @@ $tweaks = @(
 	# "EnableAudio",                # "DisableAudio",
 
 	### Unpinning ###
-	#"UnpinStartMenuTiles",
-	#"UnpinTaskbarIcons",
+	"UnpinStartMenuTiles",
+	"UnpinTaskbarIcons"
 )
 
 #########
