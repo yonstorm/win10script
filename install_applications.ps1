@@ -2,5 +2,5 @@ $apps = @('Microsoft.PowerToys','elgato.streamdeck','Spotify.Spotify','Git.Git',
 
 Foreach ($app in $apps)
 {
-    winget install --silent $app
+    winget install -h $app
 }
