@@ -33,7 +33,6 @@
   <Association Identifier=".jxr" ProgId="IrfanView.hdp" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".kdc" ProgId="IrfanView.kdc" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".lbm" ProgId="IrfanView.iff" ApplicationName="IrfanView 64-bit" />
-  <Association Identifier=".log" ProgId="Applications\notepad++.exe" ApplicationName="Notepad++ : a free (GNU) source code editor" />
   <Association Identifier=".m1v" ProgId="VLC.m1v" ApplicationName="VLC media player" />
   <Association Identifier=".m2t" ProgId="VLC.m2t" ApplicationName="VLC media player" />
   <Association Identifier=".m2ts" ProgId="VLC.m2ts" ApplicationName="VLC media player" />
@@ -74,7 +73,6 @@
   <Association Identifier=".rle" ProgId="IrfanView.rle" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".rw2" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" />
   <Association Identifier=".rwl" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" />
-  <Association Identifier=".scp" ProgId="Applications\notepad++.exe" ApplicationName="Notepad++ : a free (GNU) source code editor" />
   <Association Identifier=".sr2" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" />
   <Association Identifier=".srw" ProgId="AppX43hnxtbyyps62jhe9sqpdzxn1790zetc" />
   <Association Identifier=".stl" ProgId="AppXvhc4p7vz4b485xfp46hhk3fq3grkdgjg" />
@@ -84,7 +82,6 @@
   <Association Identifier=".tod" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" />
   <Association Identifier=".TS" ProgId="VLC.ts" ApplicationName="VLC media player" />
   <Association Identifier=".TTS" ProgId="VLC.tts" ApplicationName="VLC media player" />
-  <Association Identifier=".txt" ProgId="Applications\notepad++.exe" ApplicationName="Notepad++ : a free (GNU) source code editor" />
   <Association Identifier=".url" ProgId="IE.AssocFile.URL" />
   <Association Identifier=".wdp" ProgId="IrfanView.hdp" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".webm" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" />
@@ -92,7 +89,6 @@
   <Association Identifier=".wm" ProgId="AppX6eg8h5sxqq90pv53845wmnbewywdqq5h" />
   <Association Identifier=".wmf" ProgId="IrfanView.wmf" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".wmv" ProgId="VLC.wmv" ApplicationName="VLC media player" />
-  <Association Identifier=".wtx" ProgId="Applications\notepad++.exe" ApplicationName="Notepad++ : a free (GNU) source code editor" />
   <Association Identifier=".wvx" ProgId="VLC.wvx" ApplicationName="VLC media player" />
   <Association Identifier=".xbm" ProgId="IrfanView.xbm" ApplicationName="IrfanView 64-bit" />
   <Association Identifier=".xpm" ProgId="IrfanView.xpm" ApplicationName="IrfanView 64-bit" />
