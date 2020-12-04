@@ -163,7 +163,7 @@ $tweaks = @(
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	"InstallPDFPrinter"		# "UninstallPDFPrinter",
 	# "UninstallXPSPrinter",          # "InstallXPSPrinter",
-	#"RemoveFaxPrinter",	# "AddFaxPrinter",
+	# "RemoveFaxPrinter",# "AddFaxPrinter",
 
 	### Server Specific Tweaks ###
 	# "HideServerManagerOnLogin",   # "ShowServerManagerOnLogin",
