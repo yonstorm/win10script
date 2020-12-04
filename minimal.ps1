@@ -163,7 +163,7 @@ $tweaks = @(
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	"InstallPDFPrinter",		# "UninstallPDFPrinter",
 	# "UninstallXPSPrinter",          # "InstallXPSPrinter",
-	"RemoveFaxPrinter",	# "AddFaxPrinter",
+	#"RemoveFaxPrinter",	# "AddFaxPrinter",
 
 	### Server Specific Tweaks ###
 	# "HideServerManagerOnLogin",   # "ShowServerManagerOnLogin",
@@ -174,8 +174,8 @@ $tweaks = @(
 	# "EnableAudio",                # "DisableAudio",
 
 	### Unpinning ###
-	"UnpinStartMenuTiles",
-	"UnpinTaskbarIcons"
+	#"UnpinStartMenuTiles",
+	#"UnpinTaskbarIcons"
 )
 
 #########
